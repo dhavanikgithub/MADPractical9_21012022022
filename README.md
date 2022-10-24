@@ -4,21 +4,21 @@ Study: BroadcastReceiver, ListView, RecyclerView, Send SMS, Read SMS, Receive SM
 
 AIM: What is Difference between ListView and RecyclerView? Create SMS Android Application that can receive SMS by BroadcastReceiver and Interface, Send SMS and read & display all SMS of Inbox by using RecyclerView according to below instructions.
 
-Create MainActivity according to below UI design.
+1. Create MainActivity according to below UI design.
 
-Create SMSView Class with two member variables (Phone No., Message) and create adapter class of RecyclerView.
+2. Create SMSView Class with two member variables (Phone No., Message) and create adapter class of RecyclerView.
 
-Create SMSBroadcastReceiver to receive SMS.
+3. Create SMSBroadcastReceiver to receive SMS.
 
-Create AlertDialog Method in MainActivity to display Sent SMS and receive SMS contents in AlertDialog.
+4. Create AlertDialog Method in MainActivity to display Sent SMS and receive SMS contents in AlertDialog.
 
-Add Permissions of Read, Send, Receive SMS in Manifest File and same check in MainActivity.
+5. Add Permissions of Read, Send, Receive SMS in Manifest File and same check in MainActivity.
 
-Use Databinding in gradle file to easy way integrate xml into kotlin file
+6. Use Databinding in gradle file to easy way integrate xml into kotlin file
 
-Use Material 3 design for UI
+7. Use Material 3 design for UI
 
-Create Refresh Option in Option Menu. It will reload SMS contents in RecyclerView.
+8. Create Refresh Option in Option Menu. It will reload SMS contents in RecyclerView.
 
 ![1](https://user-images.githubusercontent.com/110646988/197452250-f571b34c-afd2-4aeb-8731-dfb1ed89bedd.jpg)
 
